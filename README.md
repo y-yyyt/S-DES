@@ -42,10 +42,10 @@ S-DES-Project/
 - 所需包：tkinter（通常内置）、PyQt5
 
 ### 安装依赖
-```bash
+```bash 
 pip install PyQt5
 
-### 运行程序
+**###** 运行程序
 - 使用 Tkinter 界面（推荐用于简单部署）
 ```bash
 python gui/des_tk.py
