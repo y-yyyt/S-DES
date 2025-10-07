@@ -53,11 +53,11 @@ python python gui/qt/des_tk.py
 
 输入可以是8bit的数据和10bit的密钥，输出是8bit的密文：
 
-![1](gui\picture\1.png)
+![1](./gui/picture1.png)
 
 当输入不符合标准时，返回处理失败的错误：
 
-![2](gui\picture\2.png)
+![2](./gui/picture2.png)
 
 
 
@@ -74,7 +74,7 @@ python python gui/qt/des_tk.py
 
 处理ASCII输入：
 
-![3](gui\picture\3.png)
+![3](./gui/picture/3.png)
 
 ##### 4.3.2 ASCII码加密时的处理
 
@@ -87,7 +87,7 @@ python python gui/qt/des_tk.py
 #### 4.4 第4关：暴力破解
 
 假设你找到了使用相同密钥的明、密文对(一个或多个)，请尝试使用暴力破解的方法找到正确的密钥Key。在编写程序时，你也可以考虑使用多线程的方式提升破解的效率。请设定时间戳，用视频或动图展示你在多长时间内完成了暴力破解。
-![4](gui\picture\4.png)
+![4](./gui/picture4.png)
 
 #### 4.5 第5关：封闭测试
 
