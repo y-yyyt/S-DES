@@ -12,8 +12,6 @@ S-DES-Project/
     - qt_main.py            # PyQt GUI 主程序
     - styles.qss            # 界面样式文件
 - README.md                 # 项目说明文档
-- requirements.txt          # 依赖包列表
-
 
 
 ## 功能特性
@@ -46,3 +44,11 @@ S-DES-Project/
 ### 安装依赖
 ```bash
 pip install PyQt5
+
+### 运行程序
+- 使用 Tkinter 界面（推荐用于简单部署）
+```bash
+python gui/des_tk.py
+- 使用 PyQt 界面（推荐用于更好的用户体验）
+```bash
+python gui/qt/des_qt.py
