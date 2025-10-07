@@ -45,7 +45,3 @@ S-DES-Project/
 ```bash 
 pip install PyQt5
 
-### 运行程序
-- 使用 Tkinter 界面（推荐用于简单部署）
-  ```bash
-  python gui/des_tk.py
