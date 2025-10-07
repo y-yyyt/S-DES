@@ -4,6 +4,17 @@
 本项目是一个基于 Python 实现的简化数据加密标准（S-DES）算法工具包，提供了完整的算法实现和用户友好的图形界面。项目支持基本的加解密操作、ASCII文本处理、暴力破解和安全性分析等功能。
 
 ## 项目结构
+S-DES-Project/
+├── des.py                    # 核心算法实现
+├── gui/
+│   ├── des_tk.py            # Tkinter GUI 实现
+│   └── qt/
+│       ├── des_qt.py        # PyQt GUI 实现
+│       └── qt_main.py       # PyQt GUI 主程序
+│       ├── styles.qss       # 界面样式文件
+│       └── styles_dark.qss  # 界面样式文件
+├── README.md                # 项目说明文档
+└── requirements.txt         # 依赖包列表
 
 ## 功能特性
 
