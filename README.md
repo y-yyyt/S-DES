@@ -9,12 +9,11 @@ S-DES-Project/
 ├── gui/
 │   ├── des_tk.py            # Tkinter GUI 实现
 │   └── qt/
-│       ├── des_qt.py        # PyQt GUI 实现
-│       └── qt_main.py       # PyQt GUI 主程序
-│       ├── styles.qss       # 界面样式文件
-│       └── styles_dark.qss  # 界面样式文件
+│       ├── qt_main.py       # PyQt GUI 主程序
+│       └── styles.qss       # 界面样式文件
 ├── README.md                # 项目说明文档
 └── requirements.txt         # 依赖包列表
+
 
 ## 功能特性
 
